@@ -7,7 +7,6 @@ import DialogTitle from '@mui/material/DialogTitle';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
 
-
 // properties addCoure is required, function called when Add clicked.
 class AddCourse extends Component {
       constructor(props) {
@@ -24,8 +23,7 @@ class AddCourse extends Component {
     };
 
     handleChange = (event) => {
-      this.setState({course:{course_id: event.target.value}});
-    }
+      this.setState({course:{course_id: event.target.value}});    }
 
   // Save course and close modal form
     handleAdd = () => {
